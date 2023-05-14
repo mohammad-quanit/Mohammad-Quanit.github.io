@@ -186,7 +186,7 @@ export class AboutVivek extends Component {
 
 export default AboutVivek;
 
-export const displayAboutVivek = () => {
+export const displayAboutQuanit = () => {
   return <AboutVivek />;
 };
 
