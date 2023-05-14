@@ -142,9 +142,6 @@ export class AboutVivek extends Component {
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
         </div>
-        {/* <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex' >
-                    <iframe src="https://github.com/sponsors/vivek9patel/button" title="Sponsor vivek9patel" width={"100%"} height={"100%"} ></iframe>
-                </div> */}
       </>
     );
   };
@@ -537,11 +534,11 @@ function Projects() {
           <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
         </div>
       </div>
-      <iframe
+      {/* <iframe
         src="https://github.com/sponsors/vivek9patel/card"
         title="Sponsor vivek9patel"
         className="my-4 w-5/6 md:w-3/4"
-      ></iframe>
+      ></iframe> */}
 
       {project_list.map((project, index) => {
         const projectNameFromLink = project.link.split("/");
