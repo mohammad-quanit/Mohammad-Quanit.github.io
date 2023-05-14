@@ -5,14 +5,14 @@ export default function Meta() {
     return (
         <Head>
            /* Primary Meta Tags */
-            <title>M Quanit Portfolio - Computer Engineering Student</title>
+            <title>M Quanit Portfolio - Senior Software Engineer</title>
             <meta charSet="utf-8" />
-            <meta name="title" content="M Quanit Portfolio - Computer Engineering Student" />
+            <meta name="title" content="M Quanit Portfolio - Senior Software Engineer" />
             <meta name="description"
-                content="M Quanit's (vivek9patel) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta name="author" content="M Quanit (vivek9patel)" />
+                content="M Quanit's (mquanit) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+            <meta name="author" content="M Quanit (mquanit)" />
             <meta name="keywords"
-                content="vivek9patel, vivek9patel's portfolio, vivek9patel linux, ubuntu portfolio, M Quanit protfolio,M Quanit computer, M Quanit, vivek ubuntu, M Quanit ubuntu portfolio" />
+                content="mquanit, mquanit's portfolio, mquanit linux, ubuntu portfolio, M Quanit protfolio,M Quanit computer, M Quanit, mquanit ubuntu, M Quanit ubuntu portfolio" />
             <meta name="robots" content="index, follow" />
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
             <meta name="language" content="English" />
@@ -22,24 +22,24 @@ export default function Meta() {
             /* Search Engine */
             <meta name="image" content="images/logos/fevicon.png" />
             /* Schema.org for Google */
-            <meta itemProp="name" content="M Quanit Portfolio - Computer Engineering Student" />
+            <meta itemProp="name" content="M Quanit Portfolio - Senior Software Engineer" />
             <meta itemProp="description"
-                content="M Quanit's (vivek9patel) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+                content="M Quanit's (mquanit) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta itemProp="image" content="images/logos/fevicon.png" />
             /* Twitter */
             <meta name="twitter:card" content="summary" />
-            <meta name="twitter:title" content="M Quanit Portfolio - Computer Engineering Student" />
+            <meta name="twitter:title" content="M Quanit Portfolio - Senior Software Engineer" />
             <meta name="twitter:description"
-                content="M Quanit's (vivek9patel) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta name="twitter:site" content="vivek9patel" />
-            <meta name="twitter:creator" content="vivek9patel" />
+                content="M Quanit's (mquanit) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+            <meta name="twitter:site" content="mquanit" />
+            <meta name="twitter:creator" content="mquanit" />
             <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
-            <meta name="og:title" content="M Quanit Portfolio - Computer Engineering Student" />
+            <meta name="og:title" content="M Quanit Portfolio - Senior Software Engineer" />
             <meta name="og:description"
-                content="M Quanit's (vivek9patel) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+                content="M Quanit's (mquanit) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="og:image" content="images/logos/logo_1200.png" />
-            <meta name="og:url" content="http://vivek9patel.github.io/" />
+            <meta name="og:url" content="http://mohammad-quanit.github.io/" />
             <meta name="og:site_name" content="M Quanit Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
