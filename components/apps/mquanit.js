@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactGA from "react-ga";
 
-export class AboutVivek extends Component {
+export class AboutMQuanit extends Component {
   constructor() {
     super();
     this.screens = {};
@@ -181,10 +181,10 @@ export class AboutVivek extends Component {
   }
 }
 
-export default AboutVivek;
+export default AboutMQuanit;
 
 export const displayAboutQuanit = () => {
-  return <AboutVivek />;
+  return <AboutMQuanit />;
 };
 
 function About() {
@@ -214,14 +214,15 @@ function About() {
       </div>
       <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
         <li className=" list-pc">
-          I'm a <span className=" font-medium">Senior Software engineer</span> & I
-          have overall 5+ years of experience in software engineering in which
-          I've been mostly working on Javascript, Typescript, Nodejs,
-          Golang, Amazon Web Servies, Google Cloud Platform & many more.
+          I'm a <span className=" font-medium">Senior Software engineer</span> &
+          I have overall 5+ years of experience in software engineering in which
+          I've been mostly working on Javascript, Typescript, Nodejs, Golang,
+          Amazon Web Servies, Google Cloud Platform & many more.
         </li>
         <li className=" mt-3 list-building">
           {" "}
-          I enjoy building awesome softwares that solve practical problems using cutting edge technologies.
+          I enjoy building awesome softwares that solve practical problems using
+          cutting edge technologies.
         </li>
         <li className=" mt-3 list-time">
           {" "}
@@ -417,93 +418,93 @@ function Projects() {
   const project_list = [
     {
       name: "UbuntuOS Portfolio",
-      date: "Apr 2021",
-      link: "https://github.com/vivek9patel/vivek9patel.github.io",
+      date: "May 2023",
+      link: "https://github.com/mohammad-quanit/mohammad-quanit.github.io",
       description: [
         "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
       ],
       domains: ["javascript", "next.js", "tailwindcss"],
     },
-    {
-      name: "Chrome Extension React Bolierplate",
-      date: "Dec 2021",
-      link: "https://github.com/vivek9patel/chrome-extension-react-boilerplate",
-      description: [
-        "A boilerplate code to build a chrome extension with react and webpack",
-      ],
-      domains: ["javascript", "chrome-extension"],
-    },
-    {
-      name: "CodeConnect",
-      date: "Nov 2021",
-      link: "https://github.com/vivek9patel/CodeConnect-frontend",
-      description: [
-        "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
-      ],
-      domains: ["javascript", "tailwindcss"],
-    },
-    {
-      name: "Ad Free Spotify",
-      date: "Jun 2021",
-      link: "https://github.com/vivek9patel/ad-free-spotify",
-      description: [
-        "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
-      ],
-      domains: ["javascript", "chrome-extension"],
-    },
-    {
-      name: "economist.com Unlocked",
-      date: "Mar 2021",
-      link: "https://github.com/vivek9patel/economist.com-unlocked",
-      description: [
-        "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
-      ],
-      domains: ["javascript", "chrome-extension"],
-    },
-    {
-      name: "Flutter banking app",
-      date: "Jan 2021",
-      link: "https://github.com/vivek9patel/flutter-banking-app",
-      description: [
-        "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
-      ],
-      domains: ["flutter", "firestore", "dart", "firebase auth"],
-    },
-    {
-      name: "CPU scheduling application",
-      date: "Dec 2020",
-      link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
-      description: [
-        "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
-      ],
-      domains: ["react-native", "javascript"],
-    },
-    {
-      name: "Meditech Healthcare WebApp",
-      date: "Nov 2020",
-      link: "https://github.com/vivek9patel/Meditech-Healthcare",
-      description: [
-        "Developed Web Application to predict and diagnose diseases from x-ray images.",
-      ],
-      domains: ["javascript", "html5", "sass", "firebase", "tensorflow"],
-    },
-    {
-      name: "Problem Recommendation System",
-      date: "Sep 2020",
-      link: "https://github.com/vivek9patel/Improve-Codeforces",
-      description: [
-        "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
-      ],
-      domains: ["django", "python", "codeforces-api", "javascript"],
-    },
-    {
-      name: "Cleanliness Automation",
-      date: "Dec 2019",
-      link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
-      description: [
-        "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
-      ],
-    },
+    // {
+    //   name: "Chrome Extension React Bolierplate",
+    //   date: "Dec 2021",
+    //   link: "https://github.com/vivek9patel/chrome-extension-react-boilerplate",
+    //   description: [
+    //     "A boilerplate code to build a chrome extension with react and webpack",
+    //   ],
+    //   domains: ["javascript", "chrome-extension"],
+    // },
+    // {
+    //   name: "CodeConnect",
+    //   date: "Nov 2021",
+    //   link: "https://github.com/vivek9patel/CodeConnect-frontend",
+    //   description: [
+    //     "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+    //   ],
+    //   domains: ["javascript", "tailwindcss"],
+    // },
+    // {
+    //   name: "Ad Free Spotify",
+    //   date: "Jun 2021",
+    //   link: "https://github.com/vivek9patel/ad-free-spotify",
+    //   description: [
+    //     "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
+    //   ],
+    //   domains: ["javascript", "chrome-extension"],
+    // },
+    // {
+    //   name: "economist.com Unlocked",
+    //   date: "Mar 2021",
+    //   link: "https://github.com/vivek9patel/economist.com-unlocked",
+    //   description: [
+    //     "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
+    //   ],
+    //   domains: ["javascript", "chrome-extension"],
+    // },
+    // {
+    //   name: "Flutter banking app",
+    //   date: "Jan 2021",
+    //   link: "https://github.com/vivek9patel/flutter-banking-app",
+    //   description: [
+    //     "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
+    //   ],
+    //   domains: ["flutter", "firestore", "dart", "firebase auth"],
+    // },
+    // {
+    //   name: "CPU scheduling application",
+    //   date: "Dec 2020",
+    //   link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
+    //   description: [
+    //     "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
+    //   ],
+    //   domains: ["react-native", "javascript"],
+    // },
+    // {
+    //   name: "Meditech Healthcare WebApp",
+    //   date: "Nov 2020",
+    //   link: "https://github.com/vivek9patel/Meditech-Healthcare",
+    //   description: [
+    //     "Developed Web Application to predict and diagnose diseases from x-ray images.",
+    //   ],
+    //   domains: ["javascript", "html5", "sass", "firebase", "tensorflow"],
+    // },
+    // {
+    //   name: "Problem Recommendation System",
+    //   date: "Sep 2020",
+    //   link: "https://github.com/vivek9patel/Improve-Codeforces",
+    //   description: [
+    //     "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
+    //   ],
+    //   domains: ["django", "python", "codeforces-api", "javascript"],
+    // },
+    // {
+    //   name: "Cleanliness Automation",
+    //   date: "Dec 2019",
+    //   link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
+    //   description: [
+    //     "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
+    //   ],
+    // },
   ];
 
   const tag_colors = {
@@ -558,7 +559,7 @@ function Projects() {
                     {project.name.toLowerCase()}
                   </div>
                   <iframe
-                    src={`https://ghbtns.com/github-btn.html?user=vivek9patel&repo=${projectName}&type=star&count=true`}
+                    src={`https://ghbtns.com/github-btn.html?user=mohammad-quanit&repo=${projectName}&type=star&count=true`}
                     frameBorder="0"
                     scrolling="0"
                     width="150"

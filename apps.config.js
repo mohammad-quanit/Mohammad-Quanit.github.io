@@ -5,7 +5,7 @@ import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
-import { displayAboutQuanit } from './components/apps/vivek';
+import { displayAboutQuanit } from './components/apps/mquanit';
 import { displayTerminalCalc } from './components/apps/calc';
 
 const apps = [
@@ -61,7 +61,7 @@ const apps = [
         disabled: false,
         favourite: true,
         desktop_shortcut: false,
-        screen: displaySpotify, // India Top 50 Playlist 😅
+        screen: displaySpotify, // Pak Top 50 Playlist 😅
     },
     {
         id: "settings",
