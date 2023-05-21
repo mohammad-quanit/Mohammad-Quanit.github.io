@@ -1,3 +1,5 @@
+[![Deploy Portfolio site to Pages](https://github.com/mohammad-quanit/Mohammad-Quanit.github.io/actions/workflows/nextjs.yml/badge.svg)](https://github.com/mohammad-quanit/Mohammad-Quanit.github.io/actions/workflows/nextjs.yml)
+
 # Web simulation of UbuntuOS
 
 This is a personal portfolio website of theme Ubuntu 20.04, made using Next.js & tailwind CSS.
