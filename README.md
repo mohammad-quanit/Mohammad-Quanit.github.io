@@ -1,4 +1,4 @@
-[![Deploy Portfolio site to Pages](https://github.com/mohammad-quanit/Mohammad-Quanit.github.io/actions/workflows/nextjs.yml/badge.svg)](https://github.com/mohammad-quanit/Mohammad-Quanit.github.io/actions/workflows/nextjs.yml)
+[![Deploy Portfolio site to GH Pages](https://github.com/mohammad-quanit/Mohammad-Quanit.github.io/actions/workflows/nextjs.yml/badge.svg)](https://github.com/mohammad-quanit/Mohammad-Quanit.github.io/actions/workflows/nextjs.yml)
 
 # Web simulation of UbuntuOS
 
