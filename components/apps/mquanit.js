@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { Component } from "react";
 import ReactGA from "react-ga";
 
@@ -250,23 +251,27 @@ function Education() {
       <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
         <li className="list-disc">
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            Pandit Deendayal Energy University- PDEU
+            Aptech Computer Education
           </div>
-          <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
-          <div className=" text-sm md:text-base">Computer Engineering</div>
-          <div className="text-sm text-gray-300 font-bold mt-1">
+          <div className=" text-sm text-gray-400 mt-0.5">2016 - 2019</div>
+          <div className=" text-sm md:text-base">
+            Higher Diploma of Software Engineering
+          </div>
+          {/* <div className="text-sm text-gray-300 font-bold mt-1">
             CGPA &nbsp; 9.35/10
-          </div>
+          </div> */}
         </li>
         <li className="list-disc mt-5">
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            Class 12<sup>th</sup> (GSEB)
+            Saylani Mass Training Institute
           </div>
-          <div className=" text-sm text-gray-400 mt-0.5">2016 - 2018</div>
-          <div className=" text-sm md:text-base">Maths, Physics, Chemistry</div>
-          <div className="text-sm text-gray-300 font-bold mt-1">
+          <div className=" text-sm text-gray-400 mt-0.5">2018 - 2019</div>
+          <div className=" text-sm md:text-base">
+            Degree of Web, Mobile & Cloud Computing
+          </div>
+          {/* <div className="text-sm text-gray-300 font-bold mt-1">
             Percentile Rank &nbsp; 94.1%
-          </div>
+          </div> */}
         </li>
       </ul>
     </>
@@ -284,16 +289,29 @@ function Skills() {
       </div>
       <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
         <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-          I've worked with a wide variety of programming languages & frameworks.
+          I've worked with a wide variety of programming languages, frameworks &
+          containers
+        </li>
+        <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+          I’m currently learning Golang Advanced, Rust, Distributed Systems,
+          Cloud Architecting Design, High & Low-level System Design
         </li>
         <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
           <div>
             {" "}
             My areas of expertise are{" "}
             <strong className="text-ubt-gedit-orange">
-              front-end development, React.js & javascript!
+              Backend development, Cloud Engineering, Docker, nodejs, Golang,
+              AWS & Google Cloud Platform
             </strong>
           </div>
+        </li>
+        <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+          When not immersed in code, I do crafting content for the tech
+          community over at{" "}
+          <strong className="text-ubt-gedit-orange">
+            <Link href="https://dev.to/mquanit">dev.to/mquanit</Link>
+          </strong>
         </li>
         <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
           <div>Here are my most frequently used</div>
@@ -313,48 +331,32 @@ function Skills() {
             <img
               className="m-1"
               src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A"
-              alt="mquanit javascript"
+              alt="javascript"
             />
             <img
               className="m-1"
-              src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white"
-              alt="mquanit c++"
+              src="https://img.shields.io/badge/-Golang-blue?style=flat&logo=go&logoColor=white&labelColor=blue&color=blue"
+              alt="golang"
             />
             <img
               className="m-1"
               src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff"
-              alt="mquanit python"
+              alt="python"
             />
             <img
+              title="yes it's a language!"
               className="m-1"
-              src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white"
-              alt="mquanit dart"
+              src="https://img.shields.io/badge/-GCP-red?style=flat&logo=google&logoColor=white&labelColor=red&color=red"
+              alt="GCP"
             />
-            <a
-              href="https://www.google.com/search?q=is+html+a+language%3F"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                title="yes it's a language!"
-                className="m-1"
-                src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff"
-                alt="mquanit HTML"
-              />
-            </a>
             <img
-              src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat&logo=sass&logoColor=ffffff"
-              alt="mquanit SASS"
+              src="https://img.shields.io/badge/-AWS-yellow?style=flat&logo=amazon&logoColor=white&labelColor=yellow&color=yellow"
+              alt="AWS"
               className="m-1"
             />
             <img
-              src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff"
-              alt="mquanit git"
-              className="m-1"
-            />
-            <img
-              src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=ffffff"
-              alt="mquanit firebase"
+              src="https://img.shields.io/badge/-Docker-blue?style=flat&logo=docker&logoColor=white&labelColor=blue&color=blue"
+              alt="docker"
               className="m-1"
             />
           </div>
@@ -363,38 +365,23 @@ function Skills() {
           <div className="flex flex-wrap justify-center items-start w-full mt-2">
             <img
               className=" m-1"
-              src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff"
-              alt="mquanit next"
+              src="https://img.shields.io/badge/GoGin-blue?style=flat&logo=go&logoColor=white"
+              alt="Go Gin"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff"
-              alt="mquanit react"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white"
-              alt="mquanit flutter"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white"
-              alt="mquanit tailwind css"
+              alt="react"
             />
             <img
               src="https://img.shields.io/badge/-Nodejs-339933?style=flat&logo=Node.js&logoColor=ffffff"
-              alt="mquanit node.js"
+              alt="node.js"
               className="m-1"
             />
-            <img
-              src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white"
-              alt="mquanit jquery"
+             <img
+              src="https://img.shields.io/badge/-AWSLambda-yellow?style=flat&logo=amazon&logoColor=ffffff"
+              alt="AWS Lambda"
               className="m-1"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white"
-              alt="mquanit redux"
             />
           </div>
         </div>
@@ -405,7 +392,7 @@ function Skills() {
           <img
             className=" inline ml-1"
             src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff"
-            alt="mquanit linux"
+            alt="linux"
           />{" "}
           <span>!</span>
         </li>
@@ -417,7 +404,7 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
-      name: "UbuntuOS Portfolio",
+      name: "Ubuntu OS Portfolio Website",
       date: "May 2023",
       link: "https://github.com/mohammad-quanit/mohammad-quanit.github.io",
       description: [
@@ -425,86 +412,51 @@ function Projects() {
       ],
       domains: ["javascript", "next.js", "tailwindcss"],
     },
-    // {
-    //   name: "Chrome Extension React Bolierplate",
-    //   date: "Dec 2021",
-    //   link: "https://github.com/vivek9patel/chrome-extension-react-boilerplate",
-    //   description: [
-    //     "A boilerplate code to build a chrome extension with react and webpack",
-    //   ],
-    //   domains: ["javascript", "chrome-extension"],
-    // },
-    // {
-    //   name: "CodeConnect",
-    //   date: "Nov 2021",
-    //   link: "https://github.com/vivek9patel/CodeConnect-frontend",
-    //   description: [
-    //     "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
-    //   ],
-    //   domains: ["javascript", "tailwindcss"],
-    // },
-    // {
-    //   name: "Ad Free Spotify",
-    //   date: "Jun 2021",
-    //   link: "https://github.com/vivek9patel/ad-free-spotify",
-    //   description: [
-    //     "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
-    //   ],
-    //   domains: ["javascript", "chrome-extension"],
-    // },
-    // {
-    //   name: "economist.com Unlocked",
-    //   date: "Mar 2021",
-    //   link: "https://github.com/vivek9patel/economist.com-unlocked",
-    //   description: [
-    //     "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
-    //   ],
-    //   domains: ["javascript", "chrome-extension"],
-    // },
-    // {
-    //   name: "Flutter banking app",
-    //   date: "Jan 2021",
-    //   link: "https://github.com/vivek9patel/flutter-banking-app",
-    //   description: [
-    //     "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
-    //   ],
-    //   domains: ["flutter", "firestore", "dart", "firebase auth"],
-    // },
-    // {
-    //   name: "CPU scheduling application",
-    //   date: "Dec 2020",
-    //   link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
-    //   description: [
-    //     "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
-    //   ],
-    //   domains: ["react-native", "javascript"],
-    // },
-    // {
-    //   name: "Meditech Healthcare WebApp",
-    //   date: "Nov 2020",
-    //   link: "https://github.com/vivek9patel/Meditech-Healthcare",
-    //   description: [
-    //     "Developed Web Application to predict and diagnose diseases from x-ray images.",
-    //   ],
-    //   domains: ["javascript", "html5", "sass", "firebase", "tensorflow"],
-    // },
-    // {
-    //   name: "Problem Recommendation System",
-    //   date: "Sep 2020",
-    //   link: "https://github.com/vivek9patel/Improve-Codeforces",
-    //   description: [
-    //     "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
-    //   ],
-    //   domains: ["django", "python", "codeforces-api", "javascript"],
-    // },
-    // {
-    //   name: "Cleanliness Automation",
-    //   date: "Dec 2019",
-    //   link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
-    //   description: [
-    //     "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
-    //   ],
-    // },
+    {
+      name: "Distributed Services",
+      date: "Aug 2023",
+      link: "https://github.com/mohammad-quanit/distributed-system",
+      description: [
+        "A minor implementation of the distributed system using Golang and gRPC",
+      ],
+      domains: ["golang", "gRPC"],
+    },
+    {
+      name: "Youtube Stats API",
+      date: "Nov 2021",
+      link: "https://github.com/mohammad-quanit/youtube-stats-api",
+      description: [
+        "A simple rest API built on Go and Youtbe SDK and deployed on kubernetes with Helm",
+      ],
+      domains: ["golang", "youtube-sdk"],
+    },
+    {
+      name: "Image GPS EXIF",
+      date: "Jun 2023",
+      link: "https://github.com/mohammad-quanit/image-gps-exif",
+      description: [
+        "Implementation of getting image exif data to get coordinates using golang",
+      ],
+      domains: ["golang", "image-sdk"],
+    },
+    {
+      name: "Gatsby Blog",
+      date: "Mar 2022",
+      link: "https://github.com/mohammad-quanit/gatsby-blog",
+      description: [
+        "A static blog website for portfolio, made on gatsbyjs, reactjs, graphql and netlify",
+      ],
+      domains: ["javascript", "gatsby"],
+    },
+    {
+      name: "Minimal Chat App",
+      date: "Jan 2021",
+      link: "https://github.com/mohammad-quanit/Vue-Node-Socket-App",
+      description: [
+        "Boilerplate for vuejs implementing socket.io with node express.",
+      ],
+      domains: ["vuejs", "nodejs", "socket", "express"],
+    },
   ];
 
   const tag_colors = {
@@ -608,7 +560,7 @@ function Resume() {
   return (
     <iframe
       className="h-full w-full"
-      src="./files/M.Quanit-resume.pdf"
+      src="./files/Mohammad-Quanit-resume.pdf"
       title="mquanit resume"
       frameBorder="0"
     ></iframe>
