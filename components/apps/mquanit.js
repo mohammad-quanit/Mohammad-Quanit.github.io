@@ -217,7 +217,7 @@ function About() {
         <li className=" list-pc">
           I'm a <span className=" font-medium">Senior Software engineer</span> &
           I have overall 5+ years of experience in software engineering in which
-          I've been mostly working on Javascript, Typescript, Nodejs, Golang,
+          I've been mostly working on Javascript, Nodejs, Golang,
           Amazon Web Servies, Google Cloud Platform & many more.
         </li>
         <li className=" mt-3 list-building">
